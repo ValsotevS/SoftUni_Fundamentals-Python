@@ -4,9 +4,9 @@ bakery_Closed = False
 events = input().split("|")
 
 for event in events:
-    current_even_list = event.split("-")
-    type_of_event = current_even_list[0]
-    value_of_event = int(current_even_list[1])
+    current_event_list = event.split("-")
+    type_of_event = current_event_list[0]
+    value_of_event = int(current_event_list[1])
 
     if type_of_event == "rest":
         energy_gain = value_of_event
